@@ -11,6 +11,9 @@ var add = require('./routes/add');
 var del = require('./routes/delete');
 var edit = require('./routes/edit');
 var search = require('./routes/search');
+// var login = require('./routes/login/login'); // 登入
+// var register = require('./routes/register/register'); // 注册
+// var getToken = require('./routes/getToken'); // 获取token
 
 var app = express();
 
@@ -33,6 +36,10 @@ app.use('/add', add); // 增加
 app.use('/delete', del); // 删除
 app.use('/edit', edit); // 修改
 app.use('/search', search); // 查询
+// app.use('/app/login', login); // 登入
+// app.use('/app/register', register); // 注册
+// app.use('/app/getToken',getToken); //获取token
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

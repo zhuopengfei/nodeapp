@@ -1,13 +1,20 @@
-var express = require('express');
-var router = express.Router();
-
-/* GET home page. */
-router.get('/', function (req, res, next) {
-    // res.render('index', { title: 'Express' });
-    // res.setHeader("Content-Type", "text/javascript");
-    // res.setHeader("Content-Type", "text/css");
-    // res.setHeader("Content-Type", "text/html");
-    // res.render('vue/index.html', {title: 'Tony'});
-});
+// var express = require('express');
+// var expressJWT = require('express-jwt');
+// var app = express();
+//
+// var secretOrPrivateKey = 'Hello,express-jwt';
+//
+// app.use(expressJWT({
+//     secret: secretOrPrivateKey
+// }).unless({
+//     path: ['/getToken']
+// }));
+//
+// // 检验token失败时的处理 token过期/无效
+// app.use(function (err, req, res, next) {
+//     if (err.name === 'UnauthorizedError') {
+//         res.status(401).send('invalid token....');
+//     }
+// });
 
 module.exports = router;

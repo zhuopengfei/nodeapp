@@ -14,7 +14,6 @@ var connection = mysql.createConnection({
 });
 
 // 执行连接
-
 connection.connect();
 
 // sql语句
