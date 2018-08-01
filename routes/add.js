@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '123456',
-    // database: 'user',
+    database: 'myjd',
 });
 
 // 执行连接
